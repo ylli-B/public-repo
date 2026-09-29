@@ -1,0 +1,15 @@
+# Default owner for everything.
+* @ylli-B
+
+# Money paths and safety machinery: changes here are the ones worth a human
+# glance even though auto-merge handles the rest.
+/ml/mlb/dfs_daily.py      @ylli-B
+/ml/mlb/dfs_gameday.py    @ylli-B
+/ml/mlb/dfs_bankroll.py   @ylli-B
+/ml/mlb/dfs_panel.py      @ylli-B
+/src/evmax/staking.py     @ylli-B
+/tools/leak_guard.py      @ylli-B
+/tools/public_snapshot.py @ylli-B
+/tests/leakage/           @ylli-B
+/state/                   @ylli-B
+/.github/workflows/       @ylli-B

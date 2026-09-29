@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data / models (local artifacts) — keep directory markers only
+data/bronze/**
+data/silver/**
+data/gold/**
+data/samples/**
+data/*.sqlite
+data/**/*.sqlite
+!data/**/.gitkeep
+!data/README.md
+docs/data/_openapi_cache/
+*.parquet
+*.joblib
+*.pkl
+ml/artifacts/
+!ml/artifacts/.gitkeep
+
+# Tracker local DB
+apps/tracker/data/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/.user.yml
+
+# Airflow
+airflow/logs/
+pipelines/logs/
+
+dbt/ml/
+
